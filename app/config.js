@@ -7,13 +7,17 @@ var mongoose = require('mongoose');
 //   },
 //   useNullAsDefault: true
 // });
+
+// var mongoosePath = process.env.MONGOPATH || 'mongodb://localhost:2567/db_fa';
+var mongoosePath = 'mongodb://localhost/db_fazzzz';
+mongoose.connect(mongoosePath);//localh
 var db = mongoose.connection;
+
+
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() { 
-
-}):
-
-//mongoose.connect = ENV Variable || localhost
+  console.log('MONGO IS ON ');
+});
 
 
 

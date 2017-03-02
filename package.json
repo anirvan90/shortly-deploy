@@ -2,7 +2,7 @@
   "name": "shortly-deploy",
   "version": "1.0.0",
   "description": "Learn all about (the challenges of) deployment",
-  "author": "Hack Reactor <curriculum.team@hackreactor.com>",
+  "author": "Felix & Anirvan <felix.d.tran@gmail.com>",
   "license": "UNLICENSED",
   "private": true,
   "engines": {
