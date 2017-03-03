@@ -1,6 +1,6 @@
 var path = require('path');
 var mongoose = require('mongoose');
-var mongoosePath = process.env.DB_USERS_URLS || 'mongodb://localhost/db_users_urls';
+var mongoosePath = 'mongodb://localhost/db_users_urls';
 mongoose.connect(mongoosePath);
 var db = mongoose.connection;
 
